@@ -1,0 +1,159 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menucontainer {
+    background-color:#252D3A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 100px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: stretch;
+    font-weight: bold;
+}
+
+.menulinks {
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    font-size: 9px;
+}
+
+.sectionone {
+    padding: 50px 100px;
+    background-color:#252D3A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.title {
+    font-size:24px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 14px;
+}
+
+.signup {
+    background-color: #5081F7;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.imageplaceholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    width:500px;
+    height: 110px;
+    background-color: #6D737C;
+}
+
+.sectiontwo,
+.sectionfour {
+    background-color:white;
+    padding: 50px 50px;
+}
+
+.section-two-title {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.sectiontwo {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.subtext-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: -20px; 
+}
+
+.subtext-item img {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.sectiontwosubtext {
+    margin-top: 5px; /* Adds spacing between image and text */
+    text-align: center;
+    font-size: 10px;
+}
+
+.sectionthree {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+blockquote {
+    text-align: center;
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+    margin-top: 5px; 
+    font-weight: bold;
+    font-size: small;
+}
+
+.sectionfour{
+    display: flex;
+    justify-content: center;
+    
+}
+.sectionfourtext {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5081F7;
+    color: white;
+    padding: 20px 70px;
+    gap:70px;
+    width: 40%;
+}
+
+.Signup {
+    border-radius: 5px;
+    border-color: white;
+    color:white;
+    background-color: #5081F7 ;
+    width: 70px;
+    height: 20px;
+}
+
+.footer {
+    background-color: #16305a;
+    color: white;
+    font-size: 10px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
